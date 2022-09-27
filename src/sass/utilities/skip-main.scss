@@ -15,6 +15,7 @@
   text-decoration: underline;
   translate: 0 -100% ; //Makes link hidden for normal users.
   transition: translate 100ms linear;
+  z-index: 999;
 
   &:focus {
     translate: 0 0;
