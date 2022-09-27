@@ -1,6 +1,6 @@
-# 🚀 Ableton Website Clone
+# 🎸 Ableton Website Clone
 
-After going through Parcel, Webpack and manual compilers, I've settled on AstroJS! Before jumping straight into making website for my clients with Astro, I've taken the time to build this clone of the relatively complex website, [ableton.com](https://www.ableton.com).
+After going through Parcel, Webpack and manual compilers, I've settled on AstroJS! Before jumping straight into making website for my clients with Astro, however, I've taken the time to build this clone of the relatively complex website, [ableton.com](https://www.ableton.com).
 
 Ableton is one of the many websites featured on[ frontendpractice.com](https://frontendpractice.com), and I credit FEP for my initial discovery of Ableton.
 
