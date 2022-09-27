@@ -6,7 +6,7 @@ Ableton is one of the many websites featured on[ frontendpractice.com](https://f
 
 The website, so far, is being constructed with AstroJS (duh), SCSS and a little vanilla JavaScript. I plan to add functionality for Vue JS once I've mastered the arts of JS frameworks effectively.
 
-For now, please have a look at what I've done at [ableton_clone.netlify.app](https://ableton_clone.netlify.app).
+For now, please have a look at what I've done at [ableton_clone.netlify.app](https://ableton_clone.netlify.app).git 
 
 ## 📑 Instructions:
 
