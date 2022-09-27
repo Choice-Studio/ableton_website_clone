@@ -1,0 +1,9 @@
+
+@forward '../utilities/sr-only';
+@forward '../utilities/skip-main';
+
+
+:focus {
+  outline: 2px #0000ff solid;
+  outline-offset: -2px;
+}

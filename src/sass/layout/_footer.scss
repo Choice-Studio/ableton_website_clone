@@ -1,0 +1,50 @@
+@use '../utilities' as *;
+@use '../abstracts' as *;
+
+
+footer {
+  #footer__main-link-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 6em;
+  
+    div {
+  
+      h6, a, i {
+        margin:.15em 0;
+      }
+      a {
+        
+        &::after {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f054";
+          font-size: $font-10;
+          vertical-align:text-bottom;
+          margin-left: .2em;
+          transition: margin 100ms linear;
+        }
+        &:hover {
+          &::after {
+            margin-left: .4em;
+          }
+        }
+      }
+    }
+  }
+  
+  #footer__input-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 6em;
+    height: 38em;
+  
+  }
+  select, select::before, select::after {
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
+    
+  }
+}
