@@ -7,6 +7,14 @@
 @media only screen and (min-width: 768px) {
   // ==== For Desktop Screens Only ====
 
-  
+  #hero-image-section {
+    background-image: url('/assets/images/photos/working-studio.jpg');
+    height: 90em;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    object-fit: fill;
+
+  }
 
 }
