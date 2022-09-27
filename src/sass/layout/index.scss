@@ -56,13 +56,13 @@ html {
 
 main {
   // Creating a wrapper to not exceed a width of over 160em:
-  max-width: 160em;
+  max-width: 140em;
   width: 100%;
   min-height: 100vh;
   
   article {
     min-height: 100vh;
-    max-width: 140em;
+    max-width: 120em;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

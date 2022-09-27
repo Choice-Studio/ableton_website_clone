@@ -7,9 +7,10 @@
 @media only screen and (min-width: 768px) {
   // ==== For Desktop Screens Only ====
 
-  #hero-image-section {
-    background-image: url('/assets/images/photos/working-studio.jpg');
-    height: 90em;
+  #home__hero-image-section {
+    background-image: url('/assets/images/photos/working-studio-min.jpg');
+    height: 100vh;
+    max-height: 80em;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -17,4 +18,84 @@
 
   }
 
+  #home__image-section-1 {
+    height: 75em;
+
+    div:last-of-type {
+      background-color: $tertiary-yellow;
+      box-shadow: 100px 0px 0px 0px $tertiary-yellow;
+    }
+  }
+
+  #home__image-section-2 {
+    height: 95em;
+
+    div:first-of-type {
+      background-color: $tertiary-green;
+      box-shadow: -100px 0px 0px 0px $tertiary-green;
+    }
+  }
+
+  #home__image-section-3 {
+    background-image: url('/assets/images/photos/switchboard-min.jpg');
+    height: 65em;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  #home__image-section-4 {
+    height: 75em;
+
+    div:nth-of-type(2) {
+      background-color: $tertiary-purple;
+    }
+  }
+
+
+  #youtube-container {
+    position: relative;
+    overflow: hidden;
+    width: 83.3333%;
+    padding-top: calc(83.3333% * 9/16); /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+
+  #home__work-us {
+    height: 70em;
+
+    div {
+      background-color: $tertiary-blue;
+
+      a {
+        &::after {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          content: "\f054";
+          @include font-size(18rem, 18vw);
+          vertical-align:text-bottom;
+          margin-left: .5em;
+          transition: margin 150ms linear;
+        }
+
+        &:hover::after {
+          margin-left: .75em;
+        }
+      }
+    }
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+
 }
+

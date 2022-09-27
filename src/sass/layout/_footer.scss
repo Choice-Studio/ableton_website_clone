@@ -20,7 +20,7 @@ footer {
           font-family: "Font Awesome 5 Free";
           font-weight: 900;
           content: "\f054";
-          font-size: $font-10;
+          @include font-size(10rem, 10vw);
           vertical-align:text-bottom;
           margin-left: .2em;
           transition: margin 100ms linear;
@@ -42,9 +42,5 @@ footer {
     height: 38em;
   
   }
-  select, select::before, select::after {
-    border: 1px solid transparent;
-    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent !important;
-    
-  }
+
 }
